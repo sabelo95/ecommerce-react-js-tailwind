@@ -3,13 +3,13 @@ import React from 'react';
 import { ShoppingCartProvider } from '../../Context';
 import Home from '../Home';
 import MyAccount from '../MyAccount';
-import MyOrder from '../MyOrder/Index';
+import MyOrder from '../MyOrder';
 import MyOrders from '../MyOrders';
 import Clothes from '../Clothes';
 import NotFound from '../NotFound';
 import SignIn from '../SignIn';
 import './App.css';
-import NavBar from '../../Components/NavBar/Index';
+import NavBar from '../../Components/NavBar';
 import CheckoutSideMenu from '../../Components/CheckoutSideMenu';
 
 const AppRoutes = () => {
